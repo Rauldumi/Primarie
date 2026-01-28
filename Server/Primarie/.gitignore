@@ -1,0 +1,54 @@
+# Visual Studio / .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+.vs/
+
+# Rider
+.idea/
+
+# ASP.NET Core / .NET Core
+appsettings.*.json
+launchSettings.json
+
+# Nu urmări pachetele NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Logs
+*.log
+logs/
+*.vspscc
+
+# Dotnet publish output
+publish/
+
+# Docker
+docker-compose.override.yml
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
+*.trx
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# User-specific files
+*.local
