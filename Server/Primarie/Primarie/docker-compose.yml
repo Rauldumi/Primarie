@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: primarie_postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: primarie_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - primarie_pgdata:/var/lib/postgresql/data
+
+volumes:
+  primarie_pgdata:
